@@ -1,4 +1,4 @@
-defmodule BuildFeenix.Controller do
+defmodule YourApp.Controller do
   use Plug.Builder
 
   def show(conn, %{"name" => name}) do
