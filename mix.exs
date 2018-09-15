@@ -15,7 +15,8 @@ defmodule BuildFeenix.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {BuildFeenix.Application, []}
+      #mod: {BuildFeenix.Application, []}
+      mod: {YourApp, []}
     ]
   end
 
